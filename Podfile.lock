@@ -1,0 +1,16 @@
+PODS:
+  - ZIPFoundation (0.9.19)
+
+DEPENDENCIES:
+  - ZIPFoundation (~> 0.9.0)
+
+SPEC REPOS:
+  trunk:
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
+
+PODFILE CHECKSUM: acd54816218a250e59a12ef0d2f42ee76893f0d4
+
+COCOAPODS: 1.16.2

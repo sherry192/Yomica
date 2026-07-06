@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20BDA2E74D85DB8EE2EE1008 /* ComicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C89C7C864E34F0BE71FC5E /* ComicDetailView.swift */; };
+		3A388C33AE9C7FFBEFF8E7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F960AB854BA5EE27805470 /* Assets.xcassets */; };
+		3C56A306A2B56B18CDD01E9C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385B12C4E86F678E3DFF1C3 /* NetworkManager.swift */; };
+		4B1E21F58C88B2994A7D934F /* ComicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F780EE87D0BD0D56C5AE785 /* ComicManager.swift */; };
+		665B9617791D663A4BAEE4A8 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DA89836F165F721ABABF0 /* LibraryView.swift */; };
+		78B70262F6F5B645D76762C9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBDD662C67BC058588A535B /* SettingsView.swift */; };
+		870AEF61C2F8C852EA6B9B2D /* ComicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401A1F1FE62CB1A1082E2A2D /* ComicModel.swift */; };
+		8C79DFC107077E2E2CDF6854 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6EC074741FE7133EE54EC39 /* Localizable.strings */; };
+		C0C4020BBA8F8CC70A913915 /* YomicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D1D68870E773ECFE283F9A /* YomicaApp.swift */; };
+		C41D4D4A2134D0222B044161 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB5A3789B52DEE73EC69F1 /* ReaderView.swift */; };
+		DC89427DF0907FF123F916D5 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08542079D885AC7A3767ECE1 /* CategoryView.swift */; };
+		DF69528B13214E7F4CBFE1E5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78AC2161CE69C0E0760045 /* MainTabView.swift */; };
+		E5453B6768FCC240430DA901 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA26DB8AE939B7AE6FB4B9A /* LanguageManager.swift */; };
+		F09486DCE51BAB469A910F16 /* Pods_Yomica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A696662D58B09E95DE0D30 /* Pods_Yomica.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04506F41A73874390DD79EAD /* Yomica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yomica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08542079D885AC7A3767ECE1 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		0BFB5A3789B52DEE73EC69F1 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		21C89C7C864E34F0BE71FC5E /* ComicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetailView.swift; sourceTree = "<group>"; };
+		2D78AC2161CE69C0E0760045 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3CA26DB8AE939B7AE6FB4B9A /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		401A1F1FE62CB1A1082E2A2D /* ComicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicModel.swift; sourceTree = "<group>"; };
+		57A696662D58B09E95DE0D30 /* Pods_Yomica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yomica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69133D0D267D6A0B6F700436 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6BBDD662C67BC058588A535B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7F780EE87D0BD0D56C5AE785 /* ComicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicManager.swift; sourceTree = "<group>"; };
+		87EF3B3CE2622136082238FE /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		88173BDA5EA0F8CBED828C1F /* Pods-Yomica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yomica.release.xcconfig"; path = "Target Support Files/Pods-Yomica/Pods-Yomica.release.xcconfig"; sourceTree = "<group>"; };
+		88C4F73D641071160A25288A /* Pods-Yomica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yomica.debug.xcconfig"; path = "Target Support Files/Pods-Yomica/Pods-Yomica.debug.xcconfig"; sourceTree = "<group>"; };
+		8F608F25DE21229CBD514C4D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92D1D68870E773ECFE283F9A /* YomicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YomicaApp.swift; sourceTree = "<group>"; };
+		9CEEEADFE2485FA843A33478 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BB8B2FB002DB461A393692D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D50DA89836F165F721ABABF0 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		F385B12C4E86F678E3DFF1C3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F6F960AB854BA5EE27805470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE9A65AAD965496F77928307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09486DCE51BAB469A910F16 /* Pods_Yomica.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AA683289D28F6885FF8924 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88C4F73D641071160A25288A /* Pods-Yomica.debug.xcconfig */,
+				88173BDA5EA0F8CBED828C1F /* Pods-Yomica.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D40924C69A66913F9875214 = {
+			isa = PBXGroup;
+			children = (
+				B64CCC7273E572B238476405 /* Yomica */,
+				80E2B2D2762E5F398195B393 /* Products */,
+				04AA683289D28F6885FF8924 /* Pods */,
+				F040526DA1A82E5787C7F84A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		418DC087D95D1C176C32C9BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6EC074741FE7133EE54EC39 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80E2B2D2762E5F398195B393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04506F41A73874390DD79EAD /* Yomica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B64CCC7273E572B238476405 /* Yomica */ = {
+			isa = PBXGroup;
+			children = (
+				F6F960AB854BA5EE27805470 /* Assets.xcassets */,
+				08542079D885AC7A3767ECE1 /* CategoryView.swift */,
+				21C89C7C864E34F0BE71FC5E /* ComicDetailView.swift */,
+				7F780EE87D0BD0D56C5AE785 /* ComicManager.swift */,
+				401A1F1FE62CB1A1082E2A2D /* ComicModel.swift */,
+				3CA26DB8AE939B7AE6FB4B9A /* LanguageManager.swift */,
+				D50DA89836F165F721ABABF0 /* LibraryView.swift */,
+				2D78AC2161CE69C0E0760045 /* MainTabView.swift */,
+				F385B12C4E86F678E3DFF1C3 /* NetworkManager.swift */,
+				0BFB5A3789B52DEE73EC69F1 /* ReaderView.swift */,
+				6BBDD662C67BC058588A535B /* SettingsView.swift */,
+				92D1D68870E773ECFE283F9A /* YomicaApp.swift */,
+				418DC087D95D1C176C32C9BB /* Resources */,
+			);
+			name = Yomica;
+			path = Sources/Yomica;
+			sourceTree = "<group>";
+		};
+		F040526DA1A82E5787C7F84A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57A696662D58B09E95DE0D30 /* Pods_Yomica.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DAF18337E383348BAB862AF /* Yomica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53151610AE47AE4671860C09 /* Build configuration list for PBXNativeTarget "Yomica" */;
+			buildPhases = (
+				133423C71B5ECF925363E8D6 /* [CP] Check Pods Manifest.lock */,
+				84CE5DA99684146F7A7D60EC /* Sources */,
+				CFC3100A400153DB84FB4A1B /* Resources */,
+				BE9A65AAD965496F77928307 /* Frameworks */,
+				5761666AAD13AE2C864036A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yomica;
+			productName = Yomica;
+			productReference = 04506F41A73874390DD79EAD /* Yomica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4888248651F448E51826F03A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1640;
+			};
+			buildConfigurationList = 7EBC47C98306153CD86AA95B /* Build configuration list for PBXProject "Yomica" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ja,
+				"zh-HK",
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 2D40924C69A66913F9875214;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 80E2B2D2762E5F398195B393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DAF18337E383348BAB862AF /* Yomica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC3100A400153DB84FB4A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A388C33AE9C7FFBEFF8E7FD /* Assets.xcassets in Resources */,
+				8C79DFC107077E2E2CDF6854 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133423C71B5ECF925363E8D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yomica-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5761666AAD13AE2C864036A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yomica/Pods-Yomica-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yomica/Pods-Yomica-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yomica/Pods-Yomica-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CE5DA99684146F7A7D60EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC89427DF0907FF123F916D5 /* CategoryView.swift in Sources */,
+				20BDA2E74D85DB8EE2EE1008 /* ComicDetailView.swift in Sources */,
+				4B1E21F58C88B2994A7D934F /* ComicManager.swift in Sources */,
+				870AEF61C2F8C852EA6B9B2D /* ComicModel.swift in Sources */,
+				E5453B6768FCC240430DA901 /* LanguageManager.swift in Sources */,
+				665B9617791D663A4BAEE4A8 /* LibraryView.swift in Sources */,
+				DF69528B13214E7F4CBFE1E5 /* MainTabView.swift in Sources */,
+				3C56A306A2B56B18CDD01E9C /* NetworkManager.swift in Sources */,
+				C41D4D4A2134D0222B044161 /* ReaderView.swift in Sources */,
+				78B70262F6F5B645D76762C9 /* SettingsView.swift in Sources */,
+				C0C4020BBA8F8CC70A913915 /* YomicaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6EC074741FE7133EE54EC39 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8B2FB002DB461A393692D4 /* en */,
+				8F608F25DE21229CBD514C4D /* ja */,
+				69133D0D267D6A0B6F700436 /* zh-Hans */,
+				9CEEEADFE2485FA843A33478 /* zh-Hant */,
+				87EF3B3CE2622136082238FE /* zh-HK */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28AD268E8E455ACF8F271707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88173BDA5EA0F8CBED828C1F /* Pods-Yomica.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomica.Yomica;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30B61D8E8620CF03757F62F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2GMF8FW9ZA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CF44FDD22E86E7C8CA26F057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2GMF8FW9ZA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D59C0FD5C61A7374DCF5BCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C4F73D641071160A25288A /* Pods-Yomica.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomica.Yomica;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53151610AE47AE4671860C09 /* Build configuration list for PBXNativeTarget "Yomica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59C0FD5C61A7374DCF5BCB7 /* Debug */,
+				28AD268E8E455ACF8F271707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7EBC47C98306153CD86AA95B /* Build configuration list for PBXProject "Yomica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF44FDD22E86E7C8CA26F057 /* Debug */,
+				30B61D8E8620CF03757F62F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4888248651F448E51826F03A /* Project object */;
+}

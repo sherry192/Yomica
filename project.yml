@@ -1,0 +1,27 @@
+name: Yomica
+options:
+  bundleIdPrefix: com.yomica
+targets:
+  Yomica:
+    type: application
+    platforms:
+      iOS: "16.0"
+      macOS: "14.0"
+    settings:
+      TARGETED_DEVICE_FAMILY: 1,2 # 1=iPhone, 2=iPad
+      UISupportedInterfaceOrientations:
+        - UIInterfaceOrientationPortrait
+        - UIInterfaceOrientationLandscapeLeft
+        - UIInterfaceOrientationLandscapeRight
+      UISupportedInterfaceOrientations~ipad:
+        - UIInterfaceOrientationPortrait
+        - UIInterfaceOrientationPortraitUpsideDown
+        - UIInterfaceOrientationLandscapeLeft
+        - UIInterfaceOrientationLandscapeRight
+    info:
+      path: Info.plist
+      properties:
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        UILaunchScreen: {}
+    sources: [Sources/Yomica]
